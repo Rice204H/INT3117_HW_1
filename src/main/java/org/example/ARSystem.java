@@ -11,15 +11,14 @@ public class ARSystem {
         boolean passTc2 = b <= 20.0;
         boolean passTc3 = c <= 3;
 
-        if (passTc1 && passTc2 ) {
+        if (passTc1 && passTc2 && c == 0 ) {
             return "GREAT";
         }
 
         if (passTc1 && (passTc2 || passTc3)) {
             return "GOOD";
         }
-
-        // 5. FAIL
+        
         return "FAIL";
     }
 }
