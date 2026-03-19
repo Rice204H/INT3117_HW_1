@@ -1,5 +1,4 @@
-# AR_testing
-# AR System Evaluation – README
+# AR System 
 
 ## 📌 Giới thiệu
 
